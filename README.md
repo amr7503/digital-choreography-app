@@ -1,5 +1,6 @@
-# Deployed Link
-![Click here](https://digital-choreography-dotenv.vercel.app/)
+# 🌐 Deployed Link  
+👉 [**Click here to visit the live site**](https://digital-choreography-dotenv.vercel.app/)
+
 
 # Digital Choreography - Next-Gen FinTech Landing Page
 
