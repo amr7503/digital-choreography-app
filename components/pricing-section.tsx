@@ -52,7 +52,7 @@ export function PricingSection() {
   const [isYearly, setIsYearly] = useState(false)
 
   return (
-    <section className="py-20 px-4 relative overflow-hidden">
+    <section className="py-20 px-4 relative overflow-hidden z-10">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-teal-500/5 to-transparent" />
       <div className="max-w-7xl mx-auto relative z-10">
         <motion.div

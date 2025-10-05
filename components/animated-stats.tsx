@@ -60,7 +60,7 @@ function AnimatedCounter({ value, suffix = "", prefix = "" }: Stat) {
 
 export function AnimatedStats() {
   return (
-    <section className="py-20 px-4 relative overflow-hidden">
+    <section className="py-20 px-4 relative overflow-hidden z-10">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-purple-500/5 to-transparent" />
       <motion.div
         initial={{ opacity: 0, y: 20 }}

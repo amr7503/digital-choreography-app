@@ -68,7 +68,7 @@ export function TestimonialsCarousel() {
   }
 
   return (
-    <section className="py-20 px-4 relative overflow-hidden">
+    <section className="py-20 px-4 relative overflow-hidden z-10">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-500/5 to-transparent" />
       <div className="max-w-4xl mx-auto relative z-10">
         <motion.div

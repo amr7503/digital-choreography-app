@@ -381,4 +381,4 @@ This project is licensed under the MIT License.
 
 ---
 
-**Built with ❤️ by us using Next.js and modern web technologies**
+**Built with ❤️ using Next.js and modern web technologies**

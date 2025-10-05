@@ -49,7 +49,7 @@ export function FeatureCards() {
   }, [])
 
   return (
-    <section id="features" ref={sectionRef} className="py-24 bg-background">
+    <section id="features" ref={sectionRef} className="py-24 bg-background relative z-10">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-16 fade-in-element opacity-0 transition-all duration-1000 translate-y-8">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">
