@@ -105,13 +105,6 @@ export function ServiceTabs() {
           </Card>
         </div>
       </div>
-
-      <style jsx>{`
-        .animate-in {
-          opacity: 1 !important;
-          transform: translateY(0) !important;
-        }
-      `}</style>
     </section>
   )
 }
