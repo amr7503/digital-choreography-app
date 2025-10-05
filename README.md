@@ -1,383 +1,302 @@
-# Digital Choreography - Next-Gen FinTech Landing Page
+---
 
-A cutting-edge, high-performance landing page built with Next.js 15, featuring advanced animations, dark-mode aesthetics, and innovative UI/UX components designed for modern FinTech brands.
+# 🌐 Deployed Link  
+👉 [**Click here to visit the live site**](https://digital-choreography-dotenv.vercel.app/)
 
-![Digital Choreography](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
+---
+
+# 🧑‍💻 Team Information
+
+**Team Name:** doTenv
+
+| Name                  | Role          | Github                     |
+|-----------------------|---------------|----------------------------|
+| Amaresh Swain         | Team Leader   | [amr7503](https://github.com/amr7503)   |
+| Disha Tripathy        | Member        | [tripathy739disha](https://github.com/tripathy739disha) |
+| Abhinab Sharma        | Member        | [Abhinab04](https://github.com/Abhinab04) |
+| G Jaganmohan Achary   | Member        | [incertyo](https://github.com/incertyo)   |
+
+>  *Submission for IIT BBSR WEB  HACKATHON ROUND 01*
+
+
+
+# 💸 Digital Choreography — Next-Gen FinTech Landing Page
+
+A **cutting-edge, high-performance landing page** built with **Next.js 15**, featuring advanced animations, dark-mode aesthetics, and innovative UI/UX components designed for modern FinTech brands.
+
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38bdf8?style=for-the-badge&logo=tailwind-css)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-ff0055?style=for-the-badge&logo=framer)
 
-## 🚀 Features Implemented
+---
 
-### Core Visual Components
+## 🧭 Table of Contents
+- [🚀 Features](#-features)
+- [🎨 Design System](#-design-system)
+- [🛠️ Technologies Used](#-technologies-used)
+- [📱 Responsive Design](#-responsive-design)
+- [⚡ Performance](#-performance)
+- [🧑‍💻 Getting Started](#-getting-started)
+- [📂 Project Structure](#-project-structure)
+- [🎨 Customization](#-customization)
+- [🐛 Known Issues](#-known-issues)
+- [🔮 Future Enhancements](#-future-enhancements)
+- [📄 License](#-license)
+- [🙏 Acknowledgments](#-acknowledgments)
 
-#### 1. **Animated Preloader**
-- Stylized loading animation with vibrant accent colors
-- Smooth fade transition to main content
-- Progress indicator with gradient effects
-- Duration: 2.5 seconds
+---
 
-#### 2. **Dynamic Hero Section**
-- Full-screen immersive header
-- Compelling headline with prominent CTA
-- Floating/layered data widgets creating depth
-- Animated cards with real-time metrics
-- Responsive grid layout
-- Smooth fade-in animations
+## 🚀 Features
 
-#### 3. **Infinite Client Ticker**
-- Seamless auto-scrolling horizontal ticker
-- Displays client/partner logos
-- Pause on hover functionality
-- Duplicate content for infinite loop effect
-- Smooth CSS animations
+### 🎨 Core Visual Components
+1. **Animated Preloader** — Stylish gradient loader with smooth fade transitions  
+2. **Dynamic Hero Section** — Immersive fullscreen header with floating widgets  
+3. **Infinite Client Ticker** — Auto-scrolling horizontal logo carousel  
+4. **Feature Cards Grid** — Glowing outlines, hover lift, staggered animations  
+5. **Service Tabs** — Smooth transitions with accessible navigation  
+6. **Product Carousel** — Swipeable, animated product views  
+7. **Data Visualization** — Interactive bar charts with filters  
+8. **Parallax Section** — Subtle scroll depth effect
 
-#### 4. **Feature Cards Grid**
-- 3-4 feature cards with distinctive design
-- Luminous border effects (glowing outlines)
-- Gentle lift/scale on hover
-- Staggered entrance animations
-- Responsive grid layout
+### 🧠 Advanced Interactive Features
+9. Scroll Progress Indicator  
+10. Animated Statistics Counter  
+11. Testimonials Carousel  
+12. Bento Grid Layout  
+13. Pricing Section with toggle  
+14. Newsletter Signup  
+15. Comprehensive Footer  
+16. Particle Background  
+17. Magnetic Cursor Effect
 
-#### 5. **Service/Content Tabs**
-- Horizontal pill/tab navigation
-- Smooth animated transitions between content
-- 3-4 service descriptions
-- Active state indicators
-- Keyboard accessible
+### ✨ Animation & Interaction Effects
+18. Scroll-triggered animations  
+19. Button ripple effects  
+20. Micro-interactions  
+21. Floating widgets  
+22. Glassmorphism UI
 
-#### 6. **Product Carousel**
-- Horizontal product viewer
-- Fluid animated transitions
-- Navigation controls (prev/next)
-- Multiple product views/configurations
-- Touch-friendly swipe support
-
-#### 7. **Data Visualization**
-- Interactive bar chart with dummy data
-- Functional filtering buttons (Day/Week/Month)
-- Smooth data transitions
-- Responsive chart scaling
-- Custom styled tooltips
-
-#### 8. **Parallax Section**
-- Subtle parallax scroll effect
-- Background image depth effect
-- Performance-optimized transforms
-- Smooth scrolling experience
-
-### Advanced Interactive Features
-
-#### 9. **Scroll Progress Indicator**
-- Fixed top bar showing scroll progress
-- Gradient color scheme (blue → purple → teal)
-- Real-time position tracking
-- Smooth transitions
-
-#### 10. **Animated Statistics Counter**
-- Numbers count up when entering viewport
-- Easing animations (ease-out-quart)
-- 4 key metrics displayed
-- Gradient text effects
-- Intersection Observer API
-
-#### 11. **Testimonials Carousel**
-- Auto-rotating testimonials (5s interval)
-- Manual navigation controls
-- Smooth slide transitions
-- Star ratings display
-- Client avatars and details
-- Pause on interaction
-
-#### 12. **Bento Grid Layout**
-- Modern asymmetric grid design
-- 6 feature highlights
-- Hover effects with gradient overlays
-- Icon-based visual hierarchy
-- Responsive column spanning
-
-#### 13. **Pricing Section**
-- 3-tier pricing structure
-- Monthly/Yearly toggle with animation
-- "Most Popular" badge
-- Feature comparison lists
-- Hover scale effects
-- Gradient CTAs
-
-#### 14. **Newsletter Signup**
-- Email subscription form
-- Animated success state
-- Form validation
-- Gradient background effects
-- Auto-reset after submission
-
-#### 15. **Comprehensive Footer**
-- Multi-column link organization
-- Animated social media icons
-- Hover effects on all links
-- Legal links section
-- Responsive layout
-
-#### 16. **Particle Background**
-- Canvas-based particle system
-- 50 animated particles
-- Connection lines between nearby particles
-- Smooth movement physics
-- Performance-optimized rendering
-
-#### 17. **Magnetic Cursor Effect**
-- Custom cursor with blend modes
-- Scale animation on interactive elements
-- Dual-ring cursor design
-- Smooth position tracking
-- Desktop-only feature
-
-### Animation & Interaction Effects
-
-#### 18. **Scroll-Triggered Animations**
-- Fade-in effects on scroll
-- Slide-up animations
-- Staggered element reveals
-- Intersection Observer implementation
-- Once-only animations for performance
-
-#### 19. **Ripple Effect on Buttons**
-- Click/tap ripple animation
-- Radial expansion effect
-- Fade-out transition
-- Applied to all primary CTAs
-- Touch-friendly
-
-#### 20. **Micro-Interactions**
-- Hover scale effects
-- Button state transitions
-- Card lift animations
-- Icon hover effects
-- Smooth color transitions
-
-#### 21. **Floating Widgets Animation**
-- CSS keyframe animations
-- Vertical floating motion
-- Infinite loop
-- Varied animation delays
-- Creates depth perception
-
-#### 22. **Glassmorphism Effects**
-- Backdrop blur on cards
-- Semi-transparent backgrounds
-- Border glow effects
-- Modern frosted glass aesthetic
+---
 
 ## 🎨 Design System
 
 ### Color Palette
-- **Background**: Deep charcoal/black (`oklch(0.145 0 0)`)
-- **Primary Accent**: Electric Blue (`oklch(0.488 0.243 264.376)`)
-- **Secondary Accent**: Neon Purple (`oklch(0.55 0.22 280)`)
-- **Tertiary Accent**: Deep Teal (`oklch(0.6 0.2 200)`)
-- **Text**: High contrast white (`oklch(0.985 0 0)`)
+- **Background**: Deep Charcoal `oklch(0.145 0 0)`  
+- **Primary Accent**: Electric Blue  
+- **Secondary Accent**: Neon Purple  
+- **Tertiary Accent**: Deep Teal  
+- **Text**: High contrast white `oklch(0.985 0 0)`
 
 ### Typography
-- **Font Family**: Geist Sans (primary), Geist Mono (code)
-- **Headings**: Bold, large scale (4xl-6xl)
-- **Body**: Clean, legible (base-lg)
-- **Line Height**: Relaxed (1.4-1.6)
+- **Font Family**: Geist Sans (primary), Geist Mono (code)  
+- **Headings**: Bold (4xl–6xl)  
+- **Body**: Clean and legible (base–lg)  
+- **Line Height**: 1.4–1.6
 
-### Spacing & Layout
-- **Container**: Max-width 7xl (1280px)
-- **Section Padding**: 20 (80px vertical)
-- **Grid Gaps**: 4-8 (16-32px)
-- **Border Radius**: Large (0.625rem base)
+### Layout & Spacing
+- **Max Width**: 1280px (7xl)  
+- **Section Padding**: 80px  
+- **Grid Gaps**: 16–32px  
+- **Border Radius**: Large (0.625rem)
+
+---
 
 ## 🛠️ Technologies Used
 
-### Core Framework
-- **Next.js 15** - React framework with App Router
-- **React 19** - UI library
-- **TypeScript** - Type safety
+### ⚡ Core Framework
+- **Next.js 15** — App Router, Image Optimization  
+- **React 19** — UI library  
+- **TypeScript** — Type safety
 
-### Styling
-- **Tailwind CSS v4** - Utility-first CSS framework
-- **CSS Custom Properties** - Theme variables
-- **Framer Motion** - Animation library
+### 🧭 Styling & Animation
+- **Tailwind CSS v4**  
+- **CSS Custom Properties**  
+- **Framer Motion**
 
-### UI Components
-- **shadcn/ui** - Accessible component library
-- **Radix UI** - Headless UI primitives
-- **Lucide Icons** - Icon library
+### 🧩 UI Components
+- **shadcn/ui**  
+- **Radix UI**  
+- **Lucide Icons**
 
-### Data Visualization
-- **Recharts** - Chart library
-- **Custom Canvas** - Particle effects
+### 📊 Data Visualization
+- **Recharts**  
+- **Custom Canvas** (for particle effects)
 
-### Performance
-- **Next.js Image** - Optimized images
-- **Intersection Observer** - Scroll animations
-- **CSS Transforms** - Hardware acceleration
+### 🧠 Performance
+- Code splitting  
+- Lazy loading  
+- Purged CSS  
+- GPU transforms  
+- Debounced scroll listeners  
+- Intersection Observer  
+- Optimized canvas rendering
+
+---
 
 ## 📱 Responsive Design
 
-### Breakpoints
-- **Mobile**: < 768px
-- **Tablet**: 768px - 1024px
-- **Desktop**: > 1024px
+| Breakpoint      | Device   |
+|------------------|---------|
+| `< 768px`       | Mobile  |
+| `768px–1024px`  | Tablet  |
+| `> 1024px`     | Desktop |
 
-### Mobile Optimizations
-- Touch-friendly interactions
-- Simplified animations
-- Optimized image sizes
-- Reduced particle count
+**Mobile Optimizations:**  
+- Touch-friendly interactions  
+- Simplified animations  
+- Optimized images  
+- Reduced particle count  
 - Stacked layouts
 
-## ⚡ Performance Features
+---
 
-### Optimization Techniques
-1. **Code Splitting** - Dynamic imports for components
-2. **Lazy Loading** - Images and heavy components
-3. **CSS Optimization** - Purged unused styles
-4. **Animation Performance** - GPU-accelerated transforms
-5. **Debounced Scroll** - Optimized scroll listeners
-6. **Intersection Observer** - Efficient viewport detection
-7. **Canvas Optimization** - RequestAnimationFrame for particles
+## ⚡ Performance
 
-### Performance Metrics
-- **First Contentful Paint**: < 1.5s
-- **Time to Interactive**: < 3.5s
-- **Cumulative Layout Shift**: < 0.1
-- **Lighthouse Score**: 95+
+### Techniques
+1. Code splitting with dynamic imports  
+2. Lazy loading of images/components  
+3. CSS optimization (purging unused styles)  
+4. GPU-accelerated animations  
+5. Debounced scroll  
+6. Intersection Observer  
+7. Canvas optimization with `requestAnimationFrame`
 
-## 🎯 Accessibility Features
+### Metrics
+- **First Contentful Paint:** < 1.5s  
+- **Time to Interactive:** < 3.5s  
+- **CLS:** < 0.1  
+- **Lighthouse Score:** 95+
 
-- **Semantic HTML** - Proper heading hierarchy
-- **ARIA Labels** - Screen reader support
-- **Keyboard Navigation** - Full keyboard accessibility
-- **Focus Indicators** - Visible focus states
-- **Color Contrast** - WCAG AA compliant
-- **Reduced Motion** - Respects user preferences
+---
 
-## 🚀 Getting Started
+## 🧑‍💻 Getting Started
 
-### Prerequisites
-- Node.js 18+ 
-- npm/yarn/pnpm
+### 📌 Prerequisites
+- Node.js 18+  
+- npm / yarn / pnpm
 
-### Installation
+### 🧰 Installation
 
-\`\`\`bash
+```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/amr7503/digital-choreography-app
 
 # Navigate to project
-cd digital-choreography
+cd digital-choreography-app
 
 # Install dependencies
 npm install
 
 # Run development server
 npm run dev
-\`\`\`
+````
 
-Open [http://localhost:3000](http://localhost:3000) to view the site.
+Visit [http://localhost:3000](http://localhost:3000) to view the app.
 
-### Build for Production
+### 🏗️ Build for Production
 
-\`\`\`bash
+```bash
 # Create optimized production build
 npm run build
 
 # Start production server
 npm start
-\`\`\`
+```
+
+---
 
 ## 📂 Project Structure
 
-\`\`\`
+```
 digital-choreography/
 ├── app/
-│   ├── layout.tsx          # Root layout with fonts
-│   ├── page.tsx            # Main landing page
-│   └── globals.css         # Global styles & theme
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
 ├── components/
-│   ├── ui/                 # shadcn/ui components
-│   ├── preloader.tsx       # Loading animation
-│   ├── navigation.tsx      # Header navigation
-│   ├── hero-section.tsx    # Hero with floating widgets
-│   ├── client-ticker.tsx   # Infinite logo ticker
-│   ├── feature-cards.tsx   # Feature grid
-│   ├── service-tabs.tsx    # Tabbed content
-│   ├── product-carousel.tsx # Product switcher
-│   ├── data-visualization.tsx # Interactive chart
-│   ├── parallax-section.tsx # Parallax effect
-│   ├── scroll-progress.tsx  # Progress indicator
-│   ├── animated-stats.tsx   # Counter animation
-│   ├── testimonials-carousel.tsx # Reviews
-│   ├── bento-grid.tsx      # Modern grid layout
-│   ├── pricing-section.tsx # Pricing tiers
-│   ├── newsletter-section.tsx # Email signup
-│   ├── footer.tsx          # Site footer
-│   ├── particle-background.tsx # Canvas particles
-│   └── magnetic-cursor.tsx # Custom cursor
+│   ├── ui/
+│   ├── preloader.tsx
+│   ├── navigation.tsx
+│   ├── hero-section.tsx
+│   ├── client-ticker.tsx
+│   ├── feature-cards.tsx
+│   ├── service-tabs.tsx
+│   ├── product-carousel.tsx
+│   ├── data-visualization.tsx
+│   ├── parallax-section.tsx
+│   ├── scroll-progress.tsx
+│   ├── animated-stats.tsx
+│   ├── testimonials-carousel.tsx
+│   ├── bento-grid.tsx
+│   ├── pricing-section.tsx
+│   ├── newsletter-section.tsx
+│   ├── footer.tsx
+│   ├── particle-background.tsx
+│   └── magnetic-cursor.tsx
 ├── public/
-│   └── images/             # Static assets
-└── README.md               # This file
-\`\`\`
+│   └── images/
+└── README.md
+```
+
+---
 
 ## 🎨 Customization
 
-### Changing Colors
-Edit `app/globals.css` to modify the color scheme:
+### 🧭 Changing Colors
 
-\`\`\`css
+Edit `app/globals.css`:
+
+```css
 .dark {
   --chart-1: oklch(0.488 0.243 264.376); /* Blue */
   --chart-2: oklch(0.696 0.17 162.48);   /* Teal */
-  /* Add your custom colors */
 }
-\`\`\`
+```
 
-### Modifying Animations
-Adjust animation durations in component files or `globals.css`:
+### ✨ Modifying Animations
 
-\`\`\`css
+```css
 @keyframes float {
   /* Customize floating animation */
 }
-\`\`\`
+```
 
-### Adding Sections
-Create new components in `components/` and import in `app/page.tsx`:
-
-\`\`\`tsx
-import { YourComponent } from "@/components/your-component"
-\`\`\`
+---
 
 ## 🐛 Known Issues
 
-- Magnetic cursor only works on desktop (intentional)
-- Particle background disabled on mobile for performance
-- Some animations reduced on low-end devices
+* Magnetic cursor is desktop-only (intentional)
+* Particle background disabled on mobile for performance
+* Some animations are reduced on low-end devices
+
+---
 
 ## 🔮 Future Enhancements
 
-- [ ] Add dark/light mode toggle
-- [ ] Implement blog section
-- [ ] Add case studies page
-- [ ] Create admin dashboard
-- [ ] Add multi-language support
-- [ ] Integrate CMS for content management
-- [ ] Add A/B testing capabilities
-- [ ] Implement analytics dashboard
+* [ ] 🌗 Dark/Light mode toggle
+* [ ] 📝 Blog section
+* [ ] 📚 Case studies page
+* [ ] 🧑‍💼 Admin dashboard
+* [ ] 🌐 Multi-language support
+* [ ] 🧠 CMS integration
+* [ ] 🧪 A/B testing
+* [ ] 📊 Analytics dashboard
+
+---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
+
+---
 
 ## 🙏 Acknowledgments
 
-- Design inspiration from modern FinTech leaders
-- shadcn/ui for component library
-- Vercel for hosting and deployment
-- Framer Motion for animation capabilities
+* Modern FinTech design inspirations
+* [shadcn/ui](https://ui.shadcn.com) for UI components
+* [Vercel](https://vercel.com) for hosting
+* [Framer Motion](https://www.framer.com/motion/) for animations
 
 ---
 
