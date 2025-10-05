@@ -24,7 +24,7 @@ export function ParallaxSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="relative h-[600px] overflow-hidden">
+    <section ref={sectionRef} className="relative z-10 h-[600px] overflow-hidden">
       <div
         ref={imageRef}
         className="absolute inset-0 bg-gradient-to-br from-primary/20 via-accent/20 to-primary/20"
